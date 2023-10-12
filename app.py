@@ -4,7 +4,7 @@ from github import Github
 
 
 app = Flask(__name__)
-ddb = DDBCache(table_name='repostatus_cache')
+ddb = DDBCache(table_name='repostatus_cache_jess')
 gh = Github()
 
 
