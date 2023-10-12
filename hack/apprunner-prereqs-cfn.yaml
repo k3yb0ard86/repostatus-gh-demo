@@ -4,7 +4,7 @@ Resources:
   Table:
     Type: AWS::DynamoDB::Table
     Properties:
-      TableName: repostatus_cache
+      TableName: repostatus_cache_jess
       AttributeDefinitions:
         - AttributeName: repoSlug
           AttributeType: S
