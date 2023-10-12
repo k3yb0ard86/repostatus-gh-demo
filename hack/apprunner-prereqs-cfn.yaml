@@ -27,7 +27,7 @@ Resources:
             Action: ['sts:AssumeRole']
       Path: /
       Policies:
-        - PolicyName: ddb-access
+        - PolicyName: ddb-access-jess
           PolicyDocument:
             Statement:
             - Effect: Allow
